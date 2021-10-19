@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Button Clicker</title>
+</head>
+<body>
+<!-- NAV BAR -->
+    <div class="container justify-center">
+        <div class="nav container justify-center align-center">
+            <div class="width container align-center justify-between">
+                <h1>Dojonary</h1>
+                <input type="text" name="search" placeholder="Search...or something" >
+                <button onclick="update(this)" class="sign-out">Login</button>
+            </div>
+        </div>
+    </div>
+
+<!-- MAIN CONTAINER -->
+    <div class="main container justify-center">
+        <div class="columns container">
+            <!-- CONTAINER TOP LEFT -->
+            <div class="info-holder col-2">
+                <div class="container info">
+                    <div class="info-holder col-1">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="like-button" onclick="alert('ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="container info-holder col-2 align-center">
+                        <p>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
+                    </div>
+                </div>
+            <!--CONTAINER BOTTOM LEFT-->
+                <div class="container info">
+                    <div class="info-holder col-1">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class= "like-button" onclick="alert('ninja was liked')">999+ likes</button>
+                    </div>
+                    <div class="container info-holder col-2 align-center">
+                        <p>A progammer who breaks down problems with <a href="">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <!-- CONTAINER TOP RIGHT -->
+            <div class="info-holder col-1">
+                <div class="info">
+                    <div class="info-holder">
+                        <div class="container align-center direction-column">
+                            <h2>Dojonary is defined by <strong>YOU</strong></h2>
+                            <button class= "add-button" onclick="hide(this)">Add Definition</button>
+                        </div>  
+                    </div>
+                </div>
+
+
+        </div>
+    </div>
+
+
+</body>
+</html>

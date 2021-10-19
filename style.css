@@ -1,0 +1,102 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    display:flex;
+}
+
+.nav{
+    color: white;
+    background-color:darkslategrey;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Roboto', sans-serif;
+    height: 75px;
+    width: 70%;
+}
+
+.nav button {
+    background-color: coral;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom-color:firebrick;
+    border-right-color: firebrick;
+    border-top-color:lightcoral;
+    border-left-color:lightcoral;
+    box-shadow: 2px 2px black;
+}
+
+.like-button {
+    background-color: darkgoldenrod;
+    color: black;
+    padding: 2px 5px 2px 5px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom-color:chocolate;
+    border-right-color: chocolate;
+    border-top-color: khaki;
+    border-left-color: khaki;
+    box-shadow: 2px 2px black;
+    margin-top: 10px;
+}
+
+.add-button {
+    background-color:olivedrab;
+    color: black;
+    padding: 2px 15px 2px 15px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom-color: darkolivegreen;
+    border-right-color: darkolivegreen;
+    border-top-color:rgb(177, 177, 75);
+    border-left-color: rgb(177, 177, 75);
+    box-shadow: 2px 2px black;
+    margin-top: 10px;
+}
+
+.main{
+    height: 700px;
+}
+
+.columns{
+    width:80%;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.width {
+    width: 100%;
+}
+
+.info {
+    border: 3px solid darkslategray;
+    margin-bottom: 50px;
+    }
+
+
+.info-holder {
+    padding: 2%;
+}
